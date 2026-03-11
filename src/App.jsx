@@ -785,7 +785,6 @@ export default function App() {
   const [libVoicings, setLibVoicings] = useState({});
   const [transposeAmount, setTransposeAmount] = useState(0);
   const [bassShow, setBassShow] = useState({ root: true, fifth: true, third: false });
-  const [bassShow, setBassShow] = useState({ root: true, fifth: false, third: false });
 
   const instrument = INSTRUMENTS[instrumentId];
 
